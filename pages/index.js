@@ -34,14 +34,14 @@ const Home = ({ posts }) => {
 
   const head = () => (
     <Head>
-      <title>Garden Friends - A social network by gardeners by gardeners</title>
+      <title>Garden Friends - A social network for gardeners by gardeners</title>
       <meta
         name="description"
-        content="A social network by gardeners by gardeners"
+        content="A social network for gardeners by gardeners"
       />
       <meta
         property="og:description"
-        content="A social network by gardeners by gardeners"
+        content="A social network for gardeners by gardeners"
       />
       <meta property="og:type" content="website" />
       <meta property="og:site_name" content="Garden Friends" />
