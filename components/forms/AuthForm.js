@@ -1,4 +1,5 @@
 import { SyncOutlined } from "@ant-design/icons";
+import Register from "../../pages/register";
 
 const AuthForm = ({
   handleSubmit,
@@ -73,8 +74,8 @@ const AuthForm = ({
         onChange={(e) => setEmail(e.target.value)}
         type="email"
         className="form-control"
-        placeholder="Enter Email"
-        disabled={profileUpdate}
+        placeholder="Registration is disabled at the moment. Please try again later."
+        disabled={profileUpdate, <Register />}
       />
     </div>
 
